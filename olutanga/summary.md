@@ -2,6 +2,9 @@
 
 * [README](README.md)
 * [Olutanga—Grassroots fiction and poetry](olutanga-grassroots-fiction-and-poetry)
+  * [Tula](olutanga-grassroots-fiction-and-poetry/tula.md)
+  * [Sugilanon](olutanga-grassroots-fiction-and-poetry/sugilanon.md)
+  * [Maikling Kwento](olutanga-grassroots-fiction-and-poetry/maikling-kwento.md)
 * [Detective Fiction](detective-fiction/README.md)
   * [Si Husto Permi ug Ang Kaso Sa Bolpen Nga Nagtae‑tae](detective-fiction/si-husto-permi-ug-ang-kaso-sa-bolpen-nga-nagtae-tae.md)
   * [Si Husto Permi ug Ang Kaso sa Sulat sa Bungbong](detective-fiction/si-husto-permi-ug-ang-kaso-sa-sulat-sa-bungbong.md)
