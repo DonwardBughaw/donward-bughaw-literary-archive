@@ -1,29 +1,61 @@
-$schema: https://api.gitbook.com/gitbook-docs.yaml
-site:
-  title: Donward Bughaw
-  structure:
-    - type: space
-      key: space-olutanga
-      title: Olutanga — Grassroots Fiction & Poetry
-      path: olutanga-fiction
-      default: true
-      content:
-        directory: ./olutanga-fiction
-    - type: space
-      key: space-detective
-      title: Detective Fiction
-      path: detective-fiction
-      content:
-        directory: ./detective-fiction
-    - type: space
-      key: space-worldbuilding
-      title: Worldbuilding & Alternate History
-      path: worldbuilding
-      content:
-        directory: ./worldbuilding
-    - type: space
-      key: space-about
-      title: About the Author
-      path: about-author
-      content:
-        directory: ./about-author
+# ──────────────────────────────────────
+# Olutanga Literary Archive — GitBook Config
+# Generated: 2026-11-07
+# ──────────────────────────────────────────────
+
+title: "Olutanga Literary Archive"
+description: "Grassroots fiction, poetry, detective stories, and worldbuilding from Olutanga and the Zamboanga region"
+author: "Donward Bughaw & Contributors"
+language: "en"
+
+# ──────────────────────────────────────────────
+# Table of Contents
+# ──────────────────────────────────────────────
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+chapters:
+  - title: "🏠 Home"
+    ref: README.md
+    path: README.md
+
+  - title: "📖 Olutanga — Grassroots Fiction and Poetry"
+    ref: olutanga-grassroots-fiction-and-poetry
+    chapters:
+      - title: "Tula"
+        ref: olutanga-grassroots-fiction-and-poetry/tula/README.md
+        path: olutanga-grassroots-fiction-and-poetry/tula/README.md
+      - title: "Balak"
+        ref: olutanga-grassroots-fiction-and-poetry/balak/README.md
+        path: olutanga-grassroots-fiction-and-poetry/balak/README.md
+      - title: "Sugilanon"
+        ref: olutanga-grassroots-fiction-and-poetry/sugilanon/README.md
+        path: olutanga-grassroots-fiction-and-poetry/sugilanon/README.md
+      - title: "Maikling Kwento"
+        ref: olutanga-grassroots-fiction-and-poetry/maikling-kwento/README.md
+        path: olutanga-grassroots-fiction-and-poetry/maikling-kwento/README.md
+
+  - title: "🕵️ Detective Fiction"
+    ref: detective-fiction/README.md
+    chapters:
+      - title: "Si Husto Permi ug Ang Kaso Sa Bolpen Nga Nagtae-tae"
+        ref: detective-fiction/si-husto-permi-ug-ang-kaso-sa-bolpen-nga-nagtae-tae.md
+        path: detective-fiction/si-husto-permi-ug-ang-kaso-sa-bolpen-nga-nagtae-tae.md
+      - title: "Si Husto Permi ug Ang Kaso sa Sulat sa Bungbong"
+        ref: detective-fiction/si-husto-permi-ug-ang-kaso-sa-sulat-sa-bungbong.md
+        path: detective-fiction/si-husto-permi-ug-ang-kaso-sa-sulat-sa-bungbong.md
+
+  - title: "🌍 Worldbuilding and Alternate History"
+    ref: worldbuilding-and-alternate-history/README.md
+    chapters:
+      - title: "Ang Rehiyon 0: Rehiyon ng Detektib"
+        ref: worldbuilding-and-alternate-history/ang-rehiyon-0-rehiyon-ng-detektib.md
+        path: worldbuilding-and-alternate-history/ang-rehiyon-0-rehiyon-ng-detektib.md
+      - title: "Ang Bughaw University"
+        ref: worldbuilding-and-alternate-history/ang-bughaw-university.md
+        path: worldbuilding-and-alternate-history/ang-bughaw-university.md
+
+  - title: "✍️ About the Author"
+    ref: about-the-author/README.md
+    path: about-the-author/README.md
