@@ -1,5 +1,4 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
 site:
   title: Donward Bughaw
   structure:
@@ -22,3 +21,10 @@ site:
       path: about
       content:
         directory: ./about
+    - type: space
+      key: space-1
+      title: Olutanga
+      path: olutanga
+      draft: true
+      content:
+        directory: ./olutanga
