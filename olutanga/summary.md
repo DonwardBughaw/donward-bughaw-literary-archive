@@ -1,7 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [Olutanga—Grassroots fiction and poetry](olutanga/olutanga-grassroots-fiction-and-poetry)
+* [Olutanga—Grassroots fiction and poetry](olutanga-grassroots-fiction-and-poetry)
 * [Detective Fiction](detective-fiction/README.md)
   * [Si Husto Permi ug Ang Kaso Sa Bolpen Nga Nagtae‑tae](detective-fiction/si-husto-permi-ug-ang-kaso-sa-bolpen-nga-nagtae-tae.md)
   * [Si Husto Permi ug Ang Kaso sa Sulat sa Bungbong](detective-fiction/si-husto-permi-ug-ang-kaso-sa-sulat-sa-bungbong.md)
