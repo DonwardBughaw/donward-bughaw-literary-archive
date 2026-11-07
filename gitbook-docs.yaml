@@ -1,30 +1,8 @@
-$schema: https://api.gitbook.com/gitbook-docs.yaml
-site:
-  title: Donward Bughaw
-  structure:
-    - type: space
-      key: detective-fiction
-      title: Detective Fiction
-      path: detective-fiction
-      default: true
-      content:
-        directory: ./detective-fiction
-    - type: space
-      key: worldbuilding
-      title: Worldbuilding & Alternate History
-      path: worldbuilding
-      content:
-        directory: ./worldbuilding
-    - type: space
-      key: about
-      title: About
-      path: about
-      content:
-        directory: ./about
-    - type: space
-      key: space-1
-      title: Olutanga
-      path: olutanga
-      draft: true
-      content:
-        directory: ./olutanga
+title: "Donward Bughaw Literary Archive"
+description: "Open-access digital archive — grassroots fiction, poetry, detective stories, and worldbuilding from Olutanga Island, Zamboanga Sibugay, Philippines."
+author: "Donward Cañete Bughaw"
+language: "en"
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
