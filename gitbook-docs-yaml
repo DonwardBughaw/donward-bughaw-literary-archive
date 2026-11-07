@@ -1,0 +1,23 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Donward Bughaw
+  structure:
+    - type: space
+      key: detective-fiction
+      title: Detective Fiction
+      path: detective-fiction
+      default: true
+      content:
+        directory: ./detective-fiction
+    - type: space
+      key: worldbuilding
+      title: Worldbuilding & Alternate History
+      path: worldbuilding
+      content:
+        directory: ./worldbuilding
+    - type: space
+      key: about
+      title: About
+      path: about
+      content:
+        directory: ./about
