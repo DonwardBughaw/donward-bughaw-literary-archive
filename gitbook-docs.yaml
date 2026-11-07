@@ -1,29 +1,55 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+
 site:
   title: Donward Bughaw
   structure:
     - type: space
       key: space-olutanga
-      title: Olutanga — Grassroots Fiction & Poetry
-      path: olutanga-fiction
+      title: Olutanga — Grassroots Fiction and Poetry
+      path: olutanga-grassroots-fiction-and-poetry
       default: true
       content:
-        directory: ./olutanga-fiction
+        directory: ./olutanga-grassroots-fiction-and-poetry
+      sections:
+        - type: section
+          title: Balak
+          path: balak
+          content:
+            directory: ./olutanga-grassroots-fiction-and-poetry/balak
+        - type: section
+          title: Sugilanon
+          path: sugilanon
+          content:
+            directory: ./olutanga-grassroots-fiction-and-poetry/sugilanon
+        - type: section
+          title: Maikling Kwento
+          path: maikling-kwento
+          content:
+            directory: ./olutanga-grassroots-fiction-and-poetry/maikling-kwento
+        - type: section
+          title: Tula
+          path: tula
+          content:
+            directory: ./olutanga-grassroots-fiction-and-poetry/tula
+
     - type: space
       key: space-detective
       title: Detective Fiction
       path: detective-fiction
       content:
         directory: ./detective-fiction
+
     - type: space
       key: space-worldbuilding
-      title: Worldbuilding & Alternate History
-      path: worldbuilding
+      title: Worldbuilding and Alternate History
+      path: worldbuilding-and-alternate-history
       content:
-        directory: ./worldbuilding
+        directory: ./worldbuilding-and-alternate-history
+
     - type: space
       key: space-about
       title: About the Author
-      path: about-author
+      path: about-the-author
       content:
-        directory: ./about-author
+        directory: ./about-the-author
