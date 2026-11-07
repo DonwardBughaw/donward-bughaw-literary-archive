@@ -1,6 +1,4 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
-
 site:
   title: Donward Bughaw
   structure:
@@ -11,21 +9,18 @@ site:
       default: true
       content:
         directory: ./olutanga-fiction
-
     - type: space
       key: space-detective
       title: Detective Fiction
       path: detective-fiction
       content:
         directory: ./detective-fiction
-
     - type: space
       key: space-worldbuilding
       title: Worldbuilding & Alternate History
       path: worldbuilding
       content:
         directory: ./worldbuilding
-
     - type: space
       key: space-about
       title: About the Author
